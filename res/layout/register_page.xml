@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/regNameTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Confirm New Username"
+        android:textColor="@color/gray"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/regPassTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Confirm New Pass"
+        android:textColor="@color/gray"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/regPassTxt"
+        android:layout_marginTop="18dp"
+        android:text="Register New"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/registerBtn"
+        android:text="Cancel!"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/oldNameTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/regNameTxt"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Old Username (Empty if New)"
+        android:textColor="@color/gray"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/oldPassTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/regPassTxt"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Old Pass (Empty it if New)"
+        android:textColor="@color/gray"
+        android:typeface="serif" />
+
+</RelativeLayout>
